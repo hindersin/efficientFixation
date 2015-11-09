@@ -5,7 +5,7 @@ int main(int argc, char* argv[])
 {
     if (argc != 6)
     {
-        cout << "Usage: ./fixating <Quantity: \"probability\", \"unconditional\" time, or \"conditional\" time> <Update Rule: \"Bd\", \"dB\"> <integer: population size> <\"directed\" or \"undirected\"> <double: fitness of mutant>" << endl;
+        cout << "Usage: ./release/fixating <Quantity: \"probability\", \"unconditional\" time, or \"conditional\" time> <Update Rule: \"Bd\", \"dB\"> <integer: population size> <\"directed\" or \"undirected\"> <double: fitness of mutant>" << endl;
         return -1;
     }
 
@@ -142,9 +142,10 @@ int main(int argc, char* argv[])
     for (int i=0; i<popSize; i++) {
         
         for (int j=0; j<popSize; j++) {
-            cout<<admat[i * popSize + j]<<" ";
+            // If you want to print the adjacency matrix:
+            //cout<<admat[i * popSize + j]<<" ";
         }
-        cout<<endl;
+        //cout<<endl;
     }
 
     t_vectorFP data;

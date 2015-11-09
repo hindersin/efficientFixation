@@ -9,19 +9,19 @@ CFLAGS=-c -Wall -std=c++0x -Wno-unused $(IDIR)
 BDIR=
 
 # Source Path
-SDIR=../source/
+SDIR=./source/
 
 # Default build is release
 BUILD_TYPE=release
 
 ifeq ($(BUILD_TYPE),debug)
 CFLAGS+=-ggdb -DDEBUG -O0
-	BDIR=../debug/
+	BDIR=./debug/
 endif
 
 ifeq ($(BUILD_TYPE),release)
 	CFLAGS+=-DNDEBUG -O3 -funroll-loops
-	 BDIR=../release/
+	 BDIR=./release/
 endif
     
 # Include Paths
