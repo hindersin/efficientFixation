@@ -1,0 +1,1600 @@
+4
+building time: 7.3e-05
+solving time: 8e-05
+
+4
+building time: 3.1e-05
+solving time: 2.3e-05
+
+4
+building time: 3.2e-05
+solving time: 2.7e-05
+
+4
+building time: 3.8e-05
+solving time: 2.4e-05
+
+4
+building time: 6e-05
+solving time: 3.7e-05
+
+4
+building time: 3.1e-05
+solving time: 2.7e-05
+
+4
+building time: 3e-05
+solving time: 2.2e-05
+
+4
+building time: 3e-05
+solving time: 2.4e-05
+
+4
+building time: 3.4e-05
+solving time: 2.7e-05
+
+4
+building time: 3.5e-05
+solving time: 2.5e-05
+
+4
+building time: 3.2e-05
+solving time: 2.4e-05
+
+4
+building time: 3.1e-05
+solving time: 2.4e-05
+
+4
+building time: 3.2e-05
+solving time: 2.5e-05
+
+4
+building time: 3.3e-05
+solving time: 2.5e-05
+
+4
+building time: 3.2e-05
+solving time: 2.5e-05
+
+4
+building time: 3.2e-05
+solving time: 2.7e-05
+
+4
+building time: 3e-05
+solving time: 2.2e-05
+
+4
+building time: 3.3e-05
+solving time: 2.5e-05
+
+4
+building time: 3.3e-05
+solving time: 2.6e-05
+
+4
+building time: 3e-05
+solving time: 2.6e-05
+
+5
+building time: 5e-05
+solving time: 3.7e-05
+
+5
+building time: 5.1e-05
+solving time: 3.9e-05
+
+5
+building time: 4.7e-05
+solving time: 3.3e-05
+
+5
+building time: 5e-05
+solving time: 3.6e-05
+
+5
+building time: 4.6e-05
+solving time: 3.3e-05
+
+5
+building time: 4.6e-05
+solving time: 3.5e-05
+
+5
+building time: 5.4e-05
+solving time: 3.9e-05
+
+5
+building time: 4.6e-05
+solving time: 3.3e-05
+
+5
+building time: 5.2e-05
+solving time: 4e-05
+
+5
+building time: 4.6e-05
+solving time: 3.4e-05
+
+5
+building time: 4.5e-05
+solving time: 3.4e-05
+
+5
+building time: 4.7e-05
+solving time: 3.5e-05
+
+5
+building time: 4.7e-05
+solving time: 3.5e-05
+
+5
+building time: 5e-05
+solving time: 3.7e-05
+
+5
+building time: 4.9e-05
+solving time: 3.7e-05
+
+5
+building time: 5.4e-05
+solving time: 3.8e-05
+
+5
+building time: 5.2e-05
+solving time: 3.8e-05
+
+5
+building time: 5.5e-05
+solving time: 4.5e-05
+
+5
+building time: 8.2e-05
+solving time: 3.8e-05
+
+5
+building time: 4.6e-05
+solving time: 3.7e-05
+
+6
+building time: 8.5e-05
+solving time: 5.8e-05
+
+6
+building time: 9.8e-05
+solving time: 7.1e-05
+
+6
+building time: 8.5e-05
+solving time: 6.1e-05
+
+6
+building time: 8.6e-05
+solving time: 6.1e-05
+
+6
+building time: 8.5e-05
+solving time: 5.9e-05
+
+6
+building time: 8.4e-05
+solving time: 6e-05
+
+6
+building time: 8.6e-05
+solving time: 6.2e-05
+
+6
+building time: 0.000107
+solving time: 6.3e-05
+
+6
+building time: 0.000101
+solving time: 6.9e-05
+
+6
+building time: 8.9e-05
+solving time: 6.4e-05
+
+6
+building time: 8.8e-05
+solving time: 6.1e-05
+
+6
+building time: 8.8e-05
+solving time: 0.000102
+
+6
+building time: 8.8e-05
+solving time: 6.1e-05
+
+6
+building time: 8.5e-05
+solving time: 6e-05
+
+6
+building time: 0.000102
+solving time: 6.8e-05
+
+6
+building time: 0.000101
+solving time: 7e-05
+
+6
+building time: 9.9e-05
+solving time: 6.9e-05
+
+6
+building time: 8.5e-05
+solving time: 6.1e-05
+
+6
+building time: 8.5e-05
+solving time: 6e-05
+
+6
+building time: 8.6e-05
+solving time: 6.3e-05
+
+7
+building time: 0.000168
+solving time: 0.000185
+
+7
+building time: 0.000176
+solving time: 0.000109
+
+7
+building time: 0.000171
+solving time: 0.00011
+
+7
+building time: 0.000172
+solving time: 0.000109
+
+7
+building time: 0.000172
+solving time: 0.000203
+
+7
+building time: 0.000253
+solving time: 0.000123
+
+7
+building time: 0.000175
+solving time: 0.00011
+
+7
+building time: 0.00017
+solving time: 0.000112
+
+7
+building time: 0.000236
+solving time: 0.00011
+
+7
+building time: 0.000198
+solving time: 0.000122
+
+7
+building time: 0.00017
+solving time: 0.00011
+
+7
+building time: 0.000173
+solving time: 0.000111
+
+7
+building time: 0.000173
+solving time: 0.000111
+
+7
+building time: 0.000172
+solving time: 0.000111
+
+7
+building time: 0.000171
+solving time: 0.000111
+
+7
+building time: 0.000204
+solving time: 0.00011
+
+7
+building time: 0.000231
+solving time: 0.000117
+
+7
+building time: 0.000175
+solving time: 0.000111
+
+7
+building time: 0.000184
+solving time: 0.000113
+
+7
+building time: 0.000168
+solving time: 0.000109
+
+8
+building time: 0.000475
+solving time: 0.00022
+
+8
+building time: 0.000365
+solving time: 0.000223
+
+8
+building time: 0.000365
+solving time: 0.000235
+
+8
+building time: 0.000366
+solving time: 0.000232
+
+8
+building time: 0.000439
+solving time: 0.000221
+
+8
+building time: 0.000382
+solving time: 0.000234
+
+8
+building time: 0.000372
+solving time: 0.000223
+
+8
+building time: 0.000377
+solving time: 0.000219
+
+8
+building time: 0.000368
+solving time: 0.00022
+
+8
+building time: 0.000374
+solving time: 0.000226
+
+8
+building time: 0.000387
+solving time: 0.000228
+
+8
+building time: 0.000419
+solving time: 0.000219
+
+8
+building time: 0.000375
+solving time: 0.000225
+
+8
+building time: 0.000385
+solving time: 0.000222
+
+8
+building time: 0.000372
+solving time: 0.000238
+
+8
+building time: 0.000378
+solving time: 0.000221
+
+8
+building time: 0.000393
+solving time: 0.000252
+
+8
+building time: 0.000445
+solving time: 0.000218
+
+8
+building time: 0.000386
+solving time: 0.000234
+
+8
+building time: 0.00037
+solving time: 0.000221
+
+9
+building time: 0.000839
+solving time: 0.000501
+
+9
+building time: 0.00086
+solving time: 0.000539
+
+9
+building time: 0.000862
+solving time: 0.00056
+
+9
+building time: 0.000967
+solving time: 0.000537
+
+9
+building time: 0.000974
+solving time: 0.000522
+
+9
+building time: 0.000893
+solving time: 0.000527
+
+9
+building time: 0.000926
+solving time: 0.000573
+
+9
+building time: 0.001072
+solving time: 0.000631
+
+9
+building time: 0.001498
+solving time: 0.000626
+
+9
+building time: 0.000871
+solving time: 0.000521
+
+9
+building time: 0.000843
+solving time: 0.000523
+
+9
+building time: 0.000856
+solving time: 0.000508
+
+9
+building time: 0.000887
+solving time: 0.000531
+
+9
+building time: 0.000874
+solving time: 0.000504
+
+9
+building time: 0.000914
+solving time: 0.000497
+
+9
+building time: 0.00085
+solving time: 0.000546
+
+9
+building time: 0.000992
+solving time: 0.000502
+
+9
+building time: 0.000924
+solving time: 0.00052
+
+9
+building time: 0.000847
+solving time: 0.000501
+
+9
+building time: 0.00085
+solving time: 0.0005
+
+10
+building time: 0.00214
+solving time: 0.001141
+
+10
+building time: 0.002027
+solving time: 0.00114
+
+10
+building time: 0.002028
+solving time: 0.001251
+
+10
+building time: 0.002112
+solving time: 0.001133
+
+10
+building time: 0.002102
+solving time: 0.001217
+
+10
+building time: 0.002025
+solving time: 0.001193
+
+10
+building time: 0.002056
+solving time: 0.001228
+
+10
+building time: 0.002357
+solving time: 0.001187
+
+10
+building time: 0.002258
+solving time: 0.001127
+
+10
+building time: 0.002464
+solving time: 0.001438
+
+10
+building time: 0.002311
+solving time: 0.001163
+
+10
+building time: 0.002077
+solving time: 0.001272
+
+10
+building time: 0.002128
+solving time: 0.001276
+
+10
+building time: 0.002073
+solving time: 0.001134
+
+10
+building time: 0.002084
+solving time: 0.001212
+
+10
+building time: 0.002076
+solving time: 0.001133
+
+10
+building time: 0.002039
+solving time: 0.00121
+
+10
+building time: 0.002112
+solving time: 0.001243
+
+10
+building time: 0.002106
+solving time: 0.001157
+
+10
+building time: 0.002021
+solving time: 0.001336
+
+11
+building time: 0.005814
+solving time: 0.002879
+
+11
+building time: 0.005376
+solving time: 0.002808
+
+11
+building time: 0.005036
+solving time: 0.003364
+
+11
+building time: 0.00633
+solving time: 0.003225
+
+11
+building time: 0.00663
+solving time: 0.003213
+
+11
+building time: 0.005358
+solving time: 0.003264
+
+11
+building time: 0.006543
+solving time: 0.003641
+
+11
+building time: 0.005581
+solving time: 0.002744
+
+11
+building time: 0.004561
+solving time: 0.002617
+
+11
+building time: 0.004636
+solving time: 0.002635
+
+11
+building time: 0.004558
+solving time: 0.002781
+
+11
+building time: 0.004582
+solving time: 0.002621
+
+11
+building time: 0.004552
+solving time: 0.003072
+
+11
+building time: 0.004969
+solving time: 0.002935
+
+11
+building time: 0.004905
+solving time: 0.002662
+
+11
+building time: 0.005301
+solving time: 0.003572
+
+11
+building time: 0.004552
+solving time: 0.002625
+
+11
+building time: 0.004622
+solving time: 0.002616
+
+11
+building time: 0.005681
+solving time: 0.003609
+
+11
+building time: 0.005636
+solving time: 0.002899
+
+12
+building time: 0.012598
+solving time: 0.006986
+
+12
+building time: 0.01307
+solving time: 0.006931
+
+12
+building time: 0.011691
+solving time: 0.00659
+
+12
+building time: 0.011741
+solving time: 0.008636
+
+12
+building time: 0.011643
+solving time: 0.007208
+
+12
+building time: 0.011339
+solving time: 0.00743
+
+12
+building time: 0.011574
+solving time: 0.006061
+
+12
+building time: 0.011326
+solving time: 0.005781
+
+12
+building time: 0.011453
+solving time: 0.00675
+
+12
+building time: 0.01178
+solving time: 0.007744
+
+12
+building time: 0.010985
+solving time: 0.00587
+
+12
+building time: 0.011082
+solving time: 0.005827
+
+12
+building time: 0.01306
+solving time: 0.006436
+
+12
+building time: 0.012009
+solving time: 0.00597
+
+12
+building time: 0.011475
+solving time: 0.006194
+
+12
+building time: 0.011498
+solving time: 0.007127
+
+12
+building time: 0.011263
+solving time: 0.006394
+
+12
+building time: 0.011418
+solving time: 0.005791
+
+12
+building time: 0.011032
+solving time: 0.006602
+
+12
+building time: 0.011454
+solving time: 0.005781
+
+13
+building time: 0.025849
+solving time: 0.015246
+
+13
+building time: 0.027775
+solving time: 0.015723
+
+13
+building time: 0.024891
+solving time: 0.016801
+
+13
+building time: 0.025764
+solving time: 0.017428
+
+13
+building time: 0.028588
+solving time: 0.018631
+
+13
+building time: 0.029643
+solving time: 0.01808
+
+13
+building time: 0.027478
+solving time: 0.014571
+
+13
+building time: 0.02695
+solving time: 0.016751
+
+13
+building time: 0.02775
+solving time: 0.015959
+
+13
+building time: 0.029945
+solving time: 0.015982
+
+13
+building time: 0.026316
+solving time: 0.014799
+
+13
+building time: 0.029303
+solving time: 0.015621
+
+13
+building time: 0.02856
+solving time: 0.017466
+
+13
+building time: 0.02547
+solving time: 0.015172
+
+13
+building time: 0.024816
+solving time: 0.022604
+
+13
+building time: 0.030286
+solving time: 0.025244
+
+13
+building time: 0.028265
+solving time: 0.020876
+
+13
+building time: 0.028964
+solving time: 0.023258
+
+13
+building time: 0.027437
+solving time: 0.023327
+
+13
+building time: 0.026541
+solving time: 0.021493
+
+14
+building time: 0.066115
+solving time: 0.066234
+
+14
+building time: 0.06133
+solving time: 0.060797
+
+14
+building time: 0.062831
+solving time: 0.070906
+
+14
+building time: 0.059794
+solving time: 0.065566
+
+14
+building time: 0.062555
+solving time: 0.067487
+
+14
+building time: 0.062901
+solving time: 0.060057
+
+14
+building time: 0.068323
+solving time: 0.062758
+
+14
+building time: 0.065063
+solving time: 0.058244
+
+14
+building time: 0.062993
+solving time: 0.065181
+
+14
+building time: 0.065199
+solving time: 0.060722
+
+14
+building time: 0.066784
+solving time: 0.056445
+
+14
+building time: 0.064094
+solving time: 0.056869
+
+14
+building time: 0.063697
+solving time: 0.058516
+
+14
+building time: 0.066082
+solving time: 0.049384
+
+14
+building time: 0.062669
+solving time: 0.047017
+
+14
+building time: 0.062973
+solving time: 0.045101
+
+14
+building time: 0.06418
+solving time: 0.047002
+
+14
+building time: 0.062568
+solving time: 0.048624
+
+14
+building time: 0.067069
+solving time: 0.046736
+
+14
+building time: 0.067813
+solving time: 0.051441
+
+15
+building time: 0.143905
+solving time: 0.101315
+
+15
+building time: 0.144336
+solving time: 0.10971
+
+15
+building time: 0.144242
+solving time: 0.107469
+
+15
+building time: 0.145974
+solving time: 0.133087
+
+15
+building time: 0.142695
+solving time: 0.105208
+
+15
+building time: 0.152441
+solving time: 0.108343
+
+15
+building time: 0.144761
+solving time: 0.120521
+
+15
+building time: 0.144854
+solving time: 0.114185
+
+15
+building time: 0.153124
+solving time: 0.103484
+
+15
+building time: 0.148298
+solving time: 0.106793
+
+15
+building time: 0.150403
+solving time: 0.106063
+
+15
+building time: 0.14708
+solving time: 0.114414
+
+15
+building time: 0.15004
+solving time: 0.135189
+
+15
+building time: 0.150318
+solving time: 0.115176
+
+15
+building time: 0.145094
+solving time: 0.119003
+
+15
+building time: 0.15491
+solving time: 0.119189
+
+15
+building time: 0.153154
+solving time: 0.115427
+
+15
+building time: 0.157035
+solving time: 0.111593
+
+15
+building time: 0.147073
+solving time: 0.099273
+
+15
+building time: 0.149294
+solving time: 0.133446
+
+16
+building time: 0.359982
+solving time: 0.320787
+
+16
+building time: 0.356201
+solving time: 0.300379
+
+16
+building time: 0.340942
+solving time: 0.298628
+
+16
+building time: 0.329847
+solving time: 0.30637
+
+16
+building time: 0.341757
+solving time: 0.281684
+
+16
+building time: 0.346437
+solving time: 0.276551
+
+16
+building time: 0.334496
+solving time: 0.296077
+
+16
+building time: 0.348112
+solving time: 0.303772
+
+16
+building time: 0.342325
+solving time: 0.276468
+
+16
+building time: 0.337515
+solving time: 0.30083
+
+16
+building time: 0.347029
+solving time: 0.29212
+
+16
+building time: 0.335595
+solving time: 0.320026
+
+16
+building time: 0.33459
+solving time: 0.301721
+
+16
+building time: 0.334103
+solving time: 0.300958
+
+16
+building time: 0.341353
+solving time: 0.276787
+
+16
+building time: 0.333522
+solving time: 0.276854
+
+16
+building time: 0.331088
+solving time: 0.269915
+
+16
+building time: 0.330283
+solving time: 0.288573
+
+16
+building time: 0.343786
+solving time: 0.297511
+
+16
+building time: 0.328112
+solving time: 0.303371
+
+17
+building time: 0.749442
+solving time: 0.795561
+
+17
+building time: 0.736051
+solving time: 0.742474
+
+17
+building time: 0.757386
+solving time: 0.790183
+
+17
+building time: 0.749171
+solving time: 0.77212
+
+17
+building time: 0.747228
+solving time: 0.78085
+
+17
+building time: 0.758964
+solving time: 0.776716
+
+17
+building time: 0.764431
+solving time: 0.852615
+
+17
+building time: 0.771251
+solving time: 0.896788
+
+17
+building time: 0.742789
+solving time: 0.752787
+
+17
+building time: 0.743789
+solving time: 0.793225
+
+17
+building time: 0.724505
+solving time: 0.804862
+
+17
+building time: 0.747892
+solving time: 0.779508
+
+17
+building time: 0.752414
+solving time: 0.766198
+
+17
+building time: 0.753437
+solving time: 0.76176
+
+17
+building time: 0.72773
+solving time: 0.836432
+
+17
+building time: 0.765616
+solving time: 0.762426
+
+17
+building time: 0.75735
+solving time: 0.786806
+
+17
+building time: 0.736153
+solving time: 0.768468
+
+17
+building time: 0.764646
+solving time: 0.782248
+
+17
+building time: 0.767882
+solving time: 0.798275
+
+18
+building time: 1.73178
+solving time: 2.05246
+
+18
+building time: 1.73839
+solving time: 2.28197
+
+18
+building time: 1.7349
+solving time: 2.20805
+
+18
+building time: 1.73438
+solving time: 2.17365
+
+18
+building time: 1.77403
+solving time: 2.23388
+
+18
+building time: 1.74615
+solving time: 2.09157
+
+18
+building time: 1.77242
+solving time: 2.13792
+
+18
+building time: 1.79632
+solving time: 2.09939
+
+18
+building time: 1.79688
+solving time: 2.23386
+
+18
+building time: 1.74129
+solving time: 2.21487
+
+18
+building time: 1.77647
+solving time: 2.06284
+
+18
+building time: 1.75286
+solving time: 2.23914
+
+18
+building time: 1.77427
+solving time: 2.37353
+
+18
+building time: 1.7103
+solving time: 2.19373
+
+18
+building time: 1.7933
+solving time: 2.09975
+
+18
+building time: 1.81157
+solving time: 2.07995
+
+18
+building time: 1.72493
+solving time: 2.11822
+
+18
+building time: 1.78229
+solving time: 2.16099
+
+18
+building time: 1.75367
+solving time: 2.11207
+
+18
+building time: 1.78954
+solving time: 2.13932
+
+19
+building time: 3.89458
+solving time: 5.80687
+
+19
+building time: 3.91781
+solving time: 5.5249
+
+19
+building time: 3.91409
+solving time: 5.64482
+
+19
+building time: 3.81733
+solving time: 5.58674
+
+19
+building time: 3.79766
+solving time: 5.44734
+
+19
+building time: 3.81305
+solving time: 5.84724
+
+19
+building time: 3.79676
+solving time: 6.11307
+
+19
+building time: 3.60147
+solving time: 6.02643
+
+19
+building time: 3.73142
+solving time: 5.81458
+
+19
+building time: 3.8355
+solving time: 5.9348
+
+19
+building time: 3.74973
+solving time: 6.29817
+
+19
+building time: 3.59722
+solving time: 5.66532
+
+19
+building time: 3.81024
+solving time: 5.69863
+
+19
+building time: 3.84076
+solving time: 5.96878
+
+19
+building time: 3.87174
+solving time: 5.85542
+
+19
+building time: 3.90342
+solving time: 5.92831
+
+19
+building time: 3.9177
+solving time: 6.17655
+
+19
+building time: 3.66286
+solving time: 5.54569
+
+19
+building time: 3.89262
+solving time: 5.71645
+
+19
+building time: 3.85167
+solving time: 5.64772
+
+20
+building time: 8.88468
+solving time: 15.5284
+
+20
+building time: 8.84624
+solving time: 14.689
+
+20
+building time: 8.9542
+solving time: 15.1016
+
+20
+building time: 8.95127
+solving time: 13.7667
+
+20
+building time: 8.76973
+solving time: 16.5104
+
+20
+building time: 8.77714
+solving time: 15.1852
+
+20
+building time: 8.92283
+solving time: 14.4587
+
+20
+building time: 9.03695
+solving time: 15.1536
+
+20
+building time: 8.73286
+solving time: 14.9481
+
+20
+building time: 8.77593
+solving time: 13.386
+
+20
+building time: 8.73957
+solving time: 14.1807
+
+20
+building time: 8.71352
+solving time: 14.7366
+
+20
+building time: 8.87687
+solving time: 14.9232
+
+20
+building time: 8.92008
+solving time: 13.3548
+
+20
+building time: 8.85088
+solving time: 15.6164
+
+20
+building time: 9.08107
+solving time: 15.1731
+
+20
+building time: 8.98227
+solving time: 13.9014
+
+20
+building time: 8.87087
+solving time: 14.375
+
+20
+building time: 8.912
+solving time: 15.0843
+
+20
+building time: 8.74238
+solving time: 15.8134
+
+21
+building time: 19.3728
+solving time: 37.9563
+
+21
+building time: 19.2574
+solving time: 35.3361
+
+21
+building time: 19.2022
+solving time: 34.1519
+
+21
+building time: 19.4491
+solving time: 38.7331
+
+21
+building time: 19.0346
+solving time: 38.6841
+
+21
+building time: 19.3572
+solving time: 37.4319
+
+21
+building time: 19.9929
+solving time: 31.9991
+
+21
+building time: 19.8914
+solving time: 37.414
+
+21
+building time: 19.804
+solving time: 31.9149
+
+21
+building time: 19.6696
+solving time: 38.4893
+
+21
+building time: 19.8435
+solving time: 38.4383
+
+21
+building time: 19.7981
+solving time: 43.8672
+
+21
+building time: 19.8732
+solving time: 38.1953
+
+21
+building time: 19.6504
+solving time: 35.398
+
+21
+building time: 19.5725
+solving time: 34.7468
+
+21
+building time: 19.8356
+solving time: 43.9625
+
+21
+building time: 19.5127
+solving time: 39.2824
+
+21
+building time: 19.4465
+solving time: 42.2691
+
+21
+building time: 19.5242
+solving time: 39.4818
+
+21
+building time: 19.3616
+solving time: 34.7489
+
+22
+building time: 43.5386
+solving time: 99.2051
+
+22
+building time: 43.4723
+solving time: 94.121
+
+22
+building time: 43.3754
+solving time: 86.0612
+
+22
+building time: 43.4847
+solving time: 94.5298
+
+22
+building time: 43.7781
+solving time: 88.9087
+
+22
+building time: 44.114
+solving time: 96.2268
+
+22
+building time: 41.7911
+solving time: 86.1603
+
+22
+building time: 44.1215
+solving time: 87.7054
+
+22
+building time: 42.5663
+solving time: 93.6913
+
+22
+building time: 43.8938
+solving time: 94.0928
+
+22
+building time: 43.8585
+solving time: 100.143
+
+22
+building time: 44.099
+solving time: 93.9544
+
+22
+building time: 43.9167
+solving time: 94.6666
+
+22
+building time: 43.8164
+solving time: 88.0899
+
+22
+building time: 44.026
+solving time: 98.5377
+
+22
+building time: 44.5856
+solving time: 87.2937
+
+22
+building time: 44.2386
+solving time: 88.6657
+
+22
+building time: 44.6236
+solving time: 89.6987
+
+22
+building time: 44.4809
+solving time: 102.543
+
+22
+building time: 44.4785
+solving time: 92.5117
+
+23
+building time: 100.922
+solving time: 187.367
+
+23
+building time: 96.9971
+solving time: 208.367
+
+23
+building time: 96.273
+solving time: 212.157
+
+23
+building time: 108.955
+solving time: 189.035
+
+23
+building time: 98.4969
+solving time: 212.113
+
+23
+building time: 98.1578
+solving time: 189.708
+
+23
+building time: 100.292
+solving time: 206.519
+
+23
+building time: 100.889
+solving time: 204.394
+
+23
+building time: 98.3912
+solving time: 221.009
+
+23
+building time: 95.9567
+solving time: 214.403
+
+23
+building time: 100.733
+solving time: 216.586
+
+23
+building time: 100.331
+solving time: 234.554
+
+23
+building time: 101.47
+solving time: 196.63
+
+23
+building time: 101.289
+solving time: 206.411
+
+23
+building time: 101.247
+solving time: 204.572
+
+23
+building time: 103.307
+solving time: 186.634
+
+23
+building time: 103.466
+solving time: 182.874
+
+23
+building time: 98.6972
+solving time: 191.911
+
+23
+building time: 99.5161
+solving time: 194.58
+
+23
+building time: 96.5007
+solving time: 214.045
+
