@@ -1,5 +1,5 @@
 # efficientFixation
-This code contains the algorithm described in <b>Exact numerical calculation of fixation probability and time on graphs.</b> by <i>Laura Hindersin, Marius Möller, Arne Traulsen</i> and <i>Benedikt Bauer</i> (Journal link coming soon).
+This code contains the algorithm described in <a href="http://arxiv.org/abs/1511.02696"><b>Exact numerical calculation of fixation probability and time on graphs.</b></a> by <i>Laura Hindersin, Marius Möller, Arne Traulsen</i> and <i>Benedikt Bauer</i>.
 
 
 ##Dependencies
@@ -18,9 +18,9 @@ In the terminal, go to the folder efficientFixation and run the following comman
 <tr><td>make</td></tr>
 </table>
 ###Running the code
-You can run the code with the command ./release/fixating, followed by the input parameters <b>Quantity</b> (probability, unconditional or conditional), <b>Update Rule</b> (Bd or dB), <b>Population size</b> (integer between 2 and 23), <b>Direction</b> (undirected or directed), <b>Fitness of the mutants</b> (double).
+You can run the code with the command ./release/fixating, followed by the input parameters <b>Quantity</b> (probability, unconditional or conditional), <b>Update Rule</b> (Bd or dB), <b>Population size</b> (integer between 2 and 23), <b>Direction</b> (undirected or directed), <b>Fitness of the mutants</b> (any float larger than 0.0).
 
-An example usage would be
+A usage example:
 <table>
 <tr><td>./release/fixating probability Bd 10 directed 2.0</td></tr>
 </table>
