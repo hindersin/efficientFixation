@@ -13,7 +13,7 @@ do
 
         for j in {1..10}
         do
-                ./fixating $Update $popSize $direction $fitness $category $arg1 $arg2 $output
+                ./fixating.out $Update $popSize $direction $fitness $category $arg1 $arg2 $output
         done
 
 done
