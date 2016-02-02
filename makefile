@@ -47,7 +47,7 @@ SOURCES+=$(SDIR)conditionalMatrix.cpp
 SOURCES+=$(SDIR)main.cpp
 
 # Binary
-BINARY=$(BDIR)fixating
+BINARY=$(BDIR)fixating.out
 
 OBJECTS=$(SOURCES:.cpp=.o)
 
