@@ -1,7 +1,8 @@
 #include "main.h"
 #include <iomanip>
 
-#define maxcount 10
+//this number might need to be changed if you are doing very big graphs with low connectivity
+#define maxcount 1000000
 
 int main(int argc, char* argv[])
 {
@@ -17,7 +18,8 @@ int main(int argc, char* argv[])
     double bt = 0;
     //CLOCK//
     double st = 0;
- 
+    //counting variable for the graph generators
+    int counts = 0;
     const unsigned int popSize = atoi(argv[2]);
     if (popSize > 23)
     {
@@ -77,8 +79,6 @@ int main(int argc, char* argv[])
        
       if (direction == "directed")
       {
-	  //const int maxcount = 10;
-          int counts = 0;
           while ((isConnected == 0) & (counts < maxcount))
           {
               if (gn == "GNP")
@@ -86,7 +86,7 @@ int main(int argc, char* argv[])
 		      double edgeprob = atof(argv[7]);
 		      if ((edgeprob > 1) || (edgeprob < 0))
 		      {
-			cout << "probabilities over 1 or smaller 0 ...aborting..." << endl;
+			cout << "probabilities larger than 1 or smaller than 0 ...aborting..." << endl;
 			return -1;
 		      }
 		      igraph_erdos_renyi_game(&graph, IGRAPH_ERDOS_RENYI_GNP,
@@ -116,7 +116,7 @@ int main(int argc, char* argv[])
           }
           if (counts == maxcount)
           {
-            cout << "Probability or number of edges too low... Did not find a connected graph after "<< maxcount <<" attemps... aborting..." << endl;
+            cout << "Probability or number of edges too low... Did not find a connected graph after "<< maxcount <<" attempts... aborting..." << endl;
             return -1;
           }
       }
@@ -130,7 +130,7 @@ int main(int argc, char* argv[])
 		      double edgeprob = atof(argv[7]);
 		      if ((edgeprob > 1) || (edgeprob < 0))
 		      {
-			cout << "probabilities over 1 or smaller 0 ...aborting..." << endl;
+			cout << "probabilities larger than 1 or smaller than 0 ...aborting..." << endl;
 			return -1;
 		      }
 		      igraph_erdos_renyi_game(&graph, IGRAPH_ERDOS_RENYI_GNP,
@@ -158,7 +158,7 @@ int main(int argc, char* argv[])
           }
           if (counts == maxcount)
           {
-            cout << "Probability or number of edges too low... Did not find a connected graph after "<< maxcount <<" attemps... aborting..." << endl;
+            cout << "Probability or number of edges too low... Did not find a connected graph after "<< maxcount <<" attempts... aborting..." << endl;
             return -1;
           }
       }      
@@ -178,7 +178,7 @@ int main(int argc, char* argv[])
       double edgeprob = atof(argv[7]);
       if ((edgeprob > 1) || (edgeprob < 0))
       {
-        cout << "probabilities over 1 or smaller 0 ...aborting..." << endl;
+        cout << "probabilities larger than 1 or smaller than 0 ...aborting..." << endl;
         return -1;
       }
       
@@ -187,30 +187,37 @@ int main(int argc, char* argv[])
  
       if (direction == "directed")
       {
-          while (isConnected == 0)
+          while ((isConnected == 0) & (counts < maxcount))
           {
               igraph_watts_strogatz_game(&graph, dim,
 			                 latSize, 1,
 			                 edgeprob, 0, 
 			                 0);
               igraph_is_connected(&graph, &isConnected, IGRAPH_STRONG);
+              counts++;
           }
       }
       else if (direction == "undirected")
       {
-          while (isConnected == 0)
+          while ((isConnected == 0) & (counts < maxcount))
           {
               igraph_watts_strogatz_game(&graph, dim,
 			                 latSize, 1,
 			                 edgeprob, 0, 
 			                 0);
               igraph_is_connected(&graph, &isConnected, IGRAPH_STRONG);
+              counts++;
           }
       }
       else
       {
           cout << "Only \"directed\" and \"undirected\" possible for direction of graph!... aborting..." << endl;
           return -1;
+      }
+      if (counts == maxcount)
+      {
+            cout << "Did not find a connected graph after "<< maxcount <<" attempts... aborting..." << endl;
+            return -1;
       }    
      }
 
@@ -222,35 +229,42 @@ int main(int argc, char* argv[])
       double edgeprob = atof(argv[7]);
       if ((edgeprob > 1) || (edgeprob < 0))
       {
-        cout << "probabilities over 1 or smaller 0 ...aborting..." << endl;
+        cout << "probabilities larger than 1 or smaller than 0 ...aborting..." << endl;
         return -1;
       }
       bool torus = (atoi(argv[6]) == 1);
       double radius = sqrt(edgeprob/3.14);
       if (direction == "directed")
       {
-          while (isConnected == 0)
+          while ((isConnected == 0) & (counts < maxcount))
           {
               igraph_grg_game(&graph, popSize,
 		              radius, torus,
 		              0, 0);
               igraph_is_connected(&graph, &isConnected, IGRAPH_STRONG);
+              counts++;
           }
       }
       else if (direction == "undirected")
       {
-          while (isConnected == 0)
+          while ((isConnected == 0) & (counts < maxcount))
           {
               igraph_grg_game(&graph, popSize,
 		              radius, torus,
 		              0, 0);
               igraph_is_connected(&graph, &isConnected, IGRAPH_STRONG);
+              counts++;
           }
       }
       else
       {
           cout << "Only \"directed\" and \"undirected\" possible for direction of graph!... aborting..." << endl;
           return -1;
+      }
+      if (counts == maxcount)
+      {
+            cout << "Probability or number of edges too low... Did not find a connected graph after "<< maxcount <<" attempts... aborting..." << endl;
+            return -1;
       }
      }
 //---------------------------- Code snippet for barabasi generator --------------------------------//
@@ -263,23 +277,13 @@ int main(int argc, char* argv[])
       igraph_bool_t isConnected = 0;
       if (direction == "directed")
       {
-          while (isConnected == 0)
-          {
-              igraph_barabasi_game(&graph, popSize,
-			 power, 
-			 m,
-			 0,
-			 0,
-			 1.0,
-			 true,
-			 IGRAPH_BARABASI_PSUMTREE,
-			 0);
-              igraph_is_connected(&graph, &isConnected, IGRAPH_STRONG);
-          }
+          cout << "directed Barabasi-Albert never creates connected graphs, use undirected instead! aborting..." << endl;
+	  return -1;
+
       }
       else if (direction == "undirected")
       {
-          while (isConnected == 0)
+          while ((isConnected == 0) & (counts < maxcount))
           {
               igraph_barabasi_game(&graph, popSize,
 			 power, 
@@ -291,6 +295,7 @@ int main(int argc, char* argv[])
 			 IGRAPH_BARABASI_PSUMTREE,
 			 0);
               igraph_is_connected(&graph, &isConnected, IGRAPH_STRONG);
+              counts++;
           }
       }
       else
@@ -298,11 +303,21 @@ int main(int argc, char* argv[])
           cout << "Only \"directed\" and \"undirected\" possible for direction of graph!... aborting..." << endl;
           return -1;
       }
+      if (counts == maxcount)
+      {
+            cout << "Did not find a connected graph after "<< maxcount <<" attempts... aborting..." << endl;
+            return -1;
+      }
      }
     // ----------   Code snippet for custom graph   ---------- 
      else if(category == "custom")
      {
      std::string admats = argv[6];
+     if (admats.size() != popSize*popSize)
+     {
+            cout << "adjacency matrix has the wrong size... aborting..." << endl;
+            return -1;
+     }
      std::vector<int> ints;
      std::transform(std::begin(admats), std::end(admats), std::back_inserter(ints),    
       [](char c) 
