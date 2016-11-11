@@ -1,5 +1,5 @@
 # efficientFixation
-This code contains the algorithm described in <a href="http://arxiv.org/abs/1511.02696"><b>Exact numerical calculation of fixation probability and time on graphs.</b></a> by <i>Laura Hindersin, Marius Möller, Arne Traulsen</i> and <i>Benedikt Bauer</i>.
+This code contains the algorithm described in <a href="http://www.sciencedirect.com/science/article/pii/S0303264716301885"><b>Exact numerical calculation of fixation probability and time on graphs.</b></a> by <i>Laura Hindersin, Marius Möller, Arne Traulsen</i> and <i>Benedikt Bauer</i>.
 
 
 ##Dependencies
