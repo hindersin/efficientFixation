@@ -396,7 +396,7 @@ int main(int argc, char* argv[])
 
     /*   ----------   No distinguishing between "probability", "unconditional" time, and "conditional" time   ----------    */
    
-        float * fixProbAllStates = (float*) malloc(numStates * sizeof(float));
+        float * fixProbAllStates = static_cast<float*> (malloc(numStates * sizeof(float)));
         fixProb(mat, popSize, numStates, fixProbAllStates);
 
         // Stopping time after solving fixation probabilities
@@ -427,7 +427,7 @@ int main(int argc, char* argv[])
         */
     if((output == "unconditional")||(output == "all"))
     {        
-        float * uncondFixTimeAllStates = (float*) malloc(numStates * sizeof(float));
+        float * uncondFixTimeAllStates = static_cast<float*> (malloc(numStates * sizeof(float)));
         // Stopping the time for solving for unconditional fixation time
         //CLOCK// start = std::clock();
         //CLOCK// bt = ( std::clock() - start ) / (double) CLOCKS_PER_SEC;
@@ -441,6 +441,8 @@ int main(int argc, char* argv[])
             avUncondTime = avUncondTime + uncondFixTimeAllStates[j];
         }
         avUncondTime = avUncondTime / (float)(popSize);
+
+       free(uncondFixTimeAllStates);
 
         cout<< "unconditional fixation time:" << avUncondTime << endl;
     }    
@@ -473,7 +475,7 @@ int main(int argc, char* argv[])
         conditionalMatrix.setFromTriplets(tripletListCond.begin(), tripletListCond.end());
     
         
-        float * condFixTimeAllStates = (float*) malloc(numStates * sizeof(float));
+        float * condFixTimeAllStates = static_cast<float*> (malloc(numStates * sizeof(float)));
         time(conditionalMatrix, popSize, numStates, condFixTimeAllStates);
         
         
@@ -485,8 +487,11 @@ int main(int argc, char* argv[])
         }
         avCondTime = avCondTime / (float)(popSize);
 
+        free(condFixTimeAllStates);
         cout << "conditional fixation time:" << avCondTime << endl;
      }
+
+    free(fixProbAllStates);
         /*   ----------   Printing the average conditional fixation time starting from all states   ----------    */
         
         //for(unsigned int i = 0; i < numStates; i++)
